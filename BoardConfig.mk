@@ -113,6 +113,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
+# RenderScript
+OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
+
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
