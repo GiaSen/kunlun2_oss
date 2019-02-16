@@ -124,7 +124,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 # RIL
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
+ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
