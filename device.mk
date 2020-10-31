@@ -191,6 +191,7 @@ endif
 
 # Media
 PRODUCT_PACKAGES += \
+    libavservices_minijail \
     libc2dcolorconvert \
     libOmxAacEnc \
     libOmxAmrEnc \
