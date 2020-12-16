@@ -129,7 +129,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData \
     libqdMetaData.system \
+    libtinyxml \
     memtrack.sdm845 \
+    vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
     memtrack.sdm845 \
@@ -142,6 +144,7 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor
