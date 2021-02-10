@@ -132,6 +132,7 @@ void Light::handleRgb(const LightState& state, size_t index) {
         }
 
         for (const auto& entry : colorValues) {
+            set(makeLedPath(entry.first, "lut_flags"), 95);
             set(makeLedPath(entry.first, "start_idx"), index);
             set(makeLedPath(entry.first, "duty_pcts"), getScaledDutyPercent(entry.second));
             set(makeLedPath(entry.first, "pause_lo"), pauseLo);
