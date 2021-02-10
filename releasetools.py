@@ -31,9 +31,10 @@ def AddImage(info, input_zip, basename, dest):
   name = basename
   data = input_zip.read("IMAGES/" + basename)
   common.ZipWriteStr(info.output_zip, name, data)
+  info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
 
 def OTA_InstallEnd(info, input_zip):
-  info.script.Print("Patching firmware images...")
   AddImage(info, input_zip, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
+  AddImage(info, input_zip, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   return
