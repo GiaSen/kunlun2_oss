@@ -331,7 +331,11 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
-# Thermal
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
+# Thermal HAL
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@1.0-service
