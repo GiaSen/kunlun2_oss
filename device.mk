@@ -50,6 +50,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libhwbinder
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libbthost_if \
+    BluetoothQti
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
