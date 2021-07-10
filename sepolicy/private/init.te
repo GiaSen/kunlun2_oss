@@ -5,9 +5,6 @@ allow init proc_touchpanel:file { write setattr open};
 allow init vendor_configs_file:dir mounton;
 allow init vendor_configs_file:file mounton;
 
-# Allow init to mount vendor overlay
-allow init vendor_overlay_file:dir mounton;
-
 allow init self:netlink_generic_socket read;
 
 allow init sysfs_tp:file setattr;

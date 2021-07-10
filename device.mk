@@ -9,10 +9,6 @@ $(call inherit-product-if-exists, vendor/lenovo/kunlun2/kunlun2-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 29
-PRODUCT_EXTRA_VNDK_VERSIONS := 29
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2244
 TARGET_SCREEN_WIDTH := 1080
@@ -49,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc \
+    init.custom.rc \
     init.power.rc
 
 # Display
@@ -74,9 +70,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     libhidltransport
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vendor_override_manifest.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/vendor_override_manifest.xml
 
 # IMS
 PRODUCT_PACKAGES += \

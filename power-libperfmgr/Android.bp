@@ -6,6 +6,7 @@ cc_library_headers {
 
 cc_library {
     name: "libdisppower-lenovo",
+    vendor: true,
     srcs: [
         "disp-power/InteractionHandler.cpp",
     ],
@@ -23,6 +24,7 @@ cc_binary {
     relative_install_path: "hw",
     init_rc: ["aidl/android.hardware.power-service.lenovo.rc"],
     vintf_fragments: ["aidl/android.hardware.power-service.lenovo.xml"],
+    vendor: true,
     shared_libs: [
         "android.hardware.power-ndk_platform",
         "libbase",
