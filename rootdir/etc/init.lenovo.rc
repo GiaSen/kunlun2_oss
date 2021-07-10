@@ -1,0 +1,14 @@
+import /vendor/etc/init/hw/init.lenovo.common.rc
+
+on init
+# added touch gesture wake node permission
+    chown system /sys/devices/virtual/touch/tp_dev/gesture_on
+    chown system /sys/devices/virtual/touch/tp_dev/tp_screen_switch
+
+on boot
+    chown gps gps /sys/ontim_bootinfo/gps_lna
+    chown gps gps /sys/ontim_bootinfo/gps_avdd_en
+    chown gps gps /sys/ontim_bootinfo/gps_reset
+    chown gps gps /sys/ontim_bootinfo/gps_prtrg
+
+

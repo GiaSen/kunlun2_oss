@@ -45,8 +45,24 @@ PRODUCT_COPY_FILES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.class_main.sh \
     init.custom.rc \
-    init.power.rc
+    init.fpc.rc \
+    init.lenovo.common.rc \
+    init.lenovo.rc \
+    init.lenovo.usb.configfs.rc \
+    init.msm.usb.configfs.rc \
+    init.power.rc \
+    init.qcom.rc \
+    init.qcom.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.sensors.sh \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh \
+    init.target.rc \
+    ueventd.qcom.rc
 
 # Display
 PRODUCT_PACKAGES += \
