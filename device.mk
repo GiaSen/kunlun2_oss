@@ -133,9 +133,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel
 
-# System properties
--include $(LOCAL_PATH)/product_prop.mk
-
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
