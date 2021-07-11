@@ -1,4 +1,0 @@
-type thermal-engine, domain;
-
-allow thermal-engine sysfs_devfreq:dir r_dir_perms;
-allow thermal-engine sysfs:dir r_dir_perms;
