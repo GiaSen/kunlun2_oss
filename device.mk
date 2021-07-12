@@ -185,7 +185,7 @@ PRODUCT_PACKAGES += \
 # Livedisplay
 ifeq ($(findstring Plus, $(CUSTOM_VERSION)),)
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.0-service-sdm
 endif
 
 # Media

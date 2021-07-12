@@ -290,6 +290,11 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libswvdec.so
 vendor/lib/libvideoutils.so
+vendor/lib/libwa_dof.so
+vendor/lib/libwa_megface.so
+vendor/lib/libwa_rtdof.so
+vendor/lib/libwa_sat.so
+vendor/lib/libwa_opticalzoomfactor.so
 vendor/lib64/camera/com.qti.eeprom.qtech_s5k5e9.so
 vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so
 vendor/lib64/camera/com.qti.sensor.ov16b10.so
@@ -357,6 +362,7 @@ vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/libswvdec.so
+vendor/lib64/libwa_opticalzoomfactor.so
 
 # Camera-configs
 vendor/etc/camera/camxoverridesettings.txt
@@ -606,7 +612,14 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so|8b97297a7d728e37eb7c4da3d0cb85099
 # FM
 lib64/fm_helium.so
 lib64/libfm-hci.so
+lib/fm_helium.so
+lib/libfm-hci.so
 -product/lib64/vendor.qti.hardware.fm@1.0.so
+-product/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
