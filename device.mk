@@ -120,8 +120,8 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    gralloc.sdm845 \
-    hwcomposer.sdm845 \
+    gralloc.sdm710 \
+    hwcomposer.sdm710 \
     libdisplayconfig \
     libdisplayconfig.vendor \
     libdisplayconfig.qti \
@@ -130,11 +130,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
-    memtrack.sdm845 \
     vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor \
-    memtrack.sdm845 \
+    memtrack.sdm710 \
     vendor.qti.hardware.display.allocator@1.0-service
 
 # Health
