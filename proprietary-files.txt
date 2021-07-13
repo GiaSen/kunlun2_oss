@@ -514,6 +514,7 @@ vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 vendor/bin/qseecomd|8c5810bf557341ca5392fce160214b66a1ac4e93
 vendor/etc/init/qseecomd.rc|9b6f7a407d49a5a0e6144a022273e8f46fc76b6a
 vendor/lib64/libcpion.so|34c86483f05f74040291dae312e88ad861c39da6
+vendor/lib64/libdrm.so|73acc71c0ee181940f26947c8811365038e4dce4
 vendor/lib64/libdrmfs.so|0bd07fc82e2936814b427da9290eacc0aecad632
 vendor/lib64/libdrmtime.so|9ce64baa8812e7c1ec8393408cdc918747c051e0
 vendor/lib64/libGPreqcancel.so|cef7983d5aceb03b4c422731c838ead1a8f3fed4
@@ -529,6 +530,7 @@ vendor/lib64/libssd.so|43ab64ac19e89976db0876a9804c5a2da2c675be
 vendor/lib64/libStDrvInt.so|a166aeaeaeb70f12bc607ff7852e039ee5cb004f
 vendor/lib64/libtzdrmgenprov.so|4f343f450c387145dd96b9d38fbecbaa3847ae95
 vendor/lib/libcppf.so|845189e615c9649a18a7c8398f1ec8d0a724c4b6
+vendor/lib/libdrm.so|4d116d616f09ce9943440f131e658611682430a0
 vendor/lib/libdrmfs.so|871462621b16b7247a9443797b9b9dac8ab24619
 vendor/lib/libdrmtime.so|1d3b7fe6fa71a066dd98a0b14de6478bc6a16ccb
 vendor/lib/libGPreqcancel.so|0cd65c695848c1003a7659d0810517762971e708
