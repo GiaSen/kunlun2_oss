@@ -1307,6 +1307,7 @@ vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|5e8423e080be3febc34152508153a5876
 
 # WiFi
 vendor/bin/cnss-daemon
+vendor/firmware/bdwlan_kunlun2.bin
 
 # WiFi Display - from instantnoodlep - RP1A.201005.001/2009301800
 -framework/WfdCommon.jar|de1adc7a4adbb117123aa5bb116c5df83c686433
