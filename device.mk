@@ -139,6 +139,9 @@ PRODUCT_PACKAGES += \
     memtrack.sdm710 \
     vendor.qti.hardware.display.allocator@1.0-service
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_ft8719_focaltech_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ft8719_focaltech_video_mode_dsi_panel.xml
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl-qti \
