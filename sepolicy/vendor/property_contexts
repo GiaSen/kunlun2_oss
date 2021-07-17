@@ -1,17 +1,16 @@
-audio.                            u:object_r:vendor_audio_prop:s0
-persist.audio                     u:object_r:vendor_audio_prop:s0
-persist.speaker                   u:object_r:vendor_audio_prop:s0
+# Camera
+camera.                     u:object_r:camera_prop:s0
+persist.camera.             u:object_r:camera_prop:s0
+persist.vendor.camera.      u:object_r:camera_prop:s0
+sys.camera.                 u:object_r:camera_prop:s0
 
-#Camera
-persist.camera.                   u:object_r:camera_prop:s0
-ro.camera.                        u:object_r:camera_prop:s0
-
-# Powerhal
+# PowerHAL
 vendor.powerhal.state      u:object_r:vendor_power_prop:s0
 vendor.powerhal.audio      u:object_r:vendor_power_prop:s0
 vendor.powerhal.lpm        u:object_r:vendor_power_prop:s0
 vendor.powerhal.init       u:object_r:vendor_power_prop:s0
 vendor.powerhal.rendering  u:object_r:vendor_power_prop:s0
+vendor.powerhal.dalvik.    u:object_r:vendor_power_prop:s0
 
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
