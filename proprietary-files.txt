@@ -1258,7 +1258,9 @@ vendor/lib/libtime_genoff.so|9f1e0fd1180207b3df81aa65c319b0d5a467d74c
 # Thermal
 vendor/bin/thermal-engine
 vendor/lib/libthermalclient.so
+vendor/lib/hw/thermal.sdm710.so
 vendor/lib64/libthermalclient.so
+vendor/lib64/hw/thermal.sdm710.so
 
 # Trusted Execution Environment connector - from LA.UM.9.8.r1-02700-SDM710.0
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f8dc88c7166ffc2c1d997e7d5f16a8eb69c37cfc
